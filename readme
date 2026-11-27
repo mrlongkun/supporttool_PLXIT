@@ -1,0 +1,58 @@
+SupportTool là bộ công cụ hỗ trợ kỹ thuật hiện trường tại các cửa hàng xăng dầu (Petrolimex / Petrolimex Automation). Phần mềm chạy trực tiếp trên các máy trạm tại cửa hàng:
+
+
+  
+
+  
+AGAS / AGAS Controller: Máy chủ điều khiển trạm bơm tự động, giao tiếp POS và hệ thống bán lẻ.
+
+  
+EGAS / EGAS Server: Máy chủ cơ sở dữ liệu StationService (SQL Server Express), Web App UltiDev ASP.NET 4.0 và dịch vụ đồng bộ KTMS.
+
+  
+POS / KTMS: Máy tính tiền, trạm giao dịch và dịch vụ xuất hóa đơn điện tử / đồng bộ giao dịch.
+
+  
+
+  
+1.2. Mục tiêu của phiên bản v2
+
+  
+
+  
+Khắc phục lỗi giao diện V1: Giao diện cũ bị co cụm, chồng chéo, chữ bị cắt khi hiển thị trên các máy có độ phân giải và mức DPI khác nhau (DPI scaling bug).
+
+  
+Bổ sung Tab "Chức năng nâng cao" (tabAdvanced): Hỗ trợ kiểm tra và điều khiển trực quan từ xa hoặc tại chỗ cho EGAS Server & AGAS Server:
+  
+  
+
+  
+Thông tin hệ điều hành: Tên máy tính (Computer Name), Địa chỉ IP card mạng, Format vùng (Region) & Định dạng ngày giờ ngắn (Short Date).
+
+  
+Kiểm tra & Điều khiển Web App: UltiDev ASP.NET 4.0 (cổng 8088 / UWS.Configuration.exe).
+
+  
+Kiểm tra & Điều khiển Dịch vụ SQL: MSSQL$SQLEXPRESS và SQLBrowser.
+
+  
+Kiểm tra cấu hình Protocols for SQLEXPRESS trong Registry: Shared Memory, Named Pipes, TCP/IP, VIA.
+
+  
+
+  
+Cung cấp công cụ thiết kế giao diện độc lập (UIDesignerTool_v2.exe):
+  
+  
+
+  
+Kéo thả, co giãn controls trực tiếp trên Form mà không kích hoạt các sự kiện nghiệp vụ (chống kích hoạt nhầm khi click).
+
+  
+Tự động ghi và cập nhật lại mã nguồn C# SupportTool.cs và biên dịch tự động ra file SupportTool_v2.exe.
+
+  
+
+  
+Tối ưu chuẩn kích thước: Tỷ lệ hiển thị 70% (ClientSize = 779 x 602) với chế độ AutoScaleMode = AutoScaleMode.None cố định 1:1 pixel.
