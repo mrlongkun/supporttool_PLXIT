@@ -9,7 +9,7 @@
 | Phiên bản | Tải trực tiếp (Direct Download) | Kênh phát hành (Release Notes) |
 | :--- | :--- | :--- |
 | **Bản mới nhất (Latest)** | [⬇ **Tải SupportTool.exe**](https://github.com/mrlongkun/supporttool_PLXIT/releases/latest/download/SupportTool.exe) | [🔗 GitHub Releases](https://github.com/mrlongkun/supporttool_PLXIT/releases/latest) |
-| **Bản v1.0.4** | [⬇ **Tải SupportTool v104.exe**](https://github.com/mrlongkun/supporttool_PLXIT/releases/download/v1.0.4/SupportTool.v104.exe) | [Xem chi tiết v1.0.4](https://github.com/mrlongkun/supporttool_PLXIT/releases/tag/v1.0.4) |
+
 
 > 💡 **Lưu ý:** Tool chạy độc lập dạng Portable (chỉ cần file `.exe` duy nhất, không cần cài đặt, tương thích tốt từ Windows 7, Windows 10 đến Windows 11 trên nền tảng .NET Framework 4.0).
 
